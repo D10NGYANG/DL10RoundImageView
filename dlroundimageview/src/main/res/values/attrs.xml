@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DLRoundImageView">
+        <attr name="borderWidth" format="integer" /> <!--边框宽度-->
+        <attr name="borderColor" format="color" /> <!--边框颜色-->
+        <attr name="hasShadow" format="boolean" /> <!--是否有阴影-->
+        <attr name="shadowColor" format="color" /> <!--阴影颜色-->
+        <attr name="shadowRadius" format="float" /> <!--阴影模糊半径-->
+    </declare-styleable>
+</resources>

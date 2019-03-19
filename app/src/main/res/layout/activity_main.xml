@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.dlong.rep.dlroundimageview.DLRoundImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@mipmap/dlong"
+        app:borderColor="@android:color/white"
+        app:borderWidth="20"
+        app:hasShadow="true"
+        app:shadowColor="@color/colorAccent"
+        app:shadowRadius="30" />
+</LinearLayout>
